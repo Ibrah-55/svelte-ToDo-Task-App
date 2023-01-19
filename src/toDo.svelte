@@ -8,7 +8,7 @@
       $toDoItems = $toDoItems
     }
   </script>
-  <MaterialApp>  
+  <body>  
   {#each $toDoItems as item, index}
     <div class="toDoItems">
         <ul><li>
@@ -23,7 +23,7 @@
     </div>
   {/each} 
 
-  </MaterialApp>
+  </body>
   
   <style>
     .checked {
@@ -32,5 +32,27 @@
     .toDoItems {
         text-align: left;
     }
+	body{
+		color: #333;
+	    margin: 0;
+	    padding: 8px;
+		height: max-content;
+		position: relative;
+	    width: 100%;
+	    height: 100%;
+
+	}
+	h5{
+		text-align: center;
+		color:red;
+	}
+	span{
+		color: yellowgreen;
+	}
+	input{
+		margin-left: 1em;
+		background-color: antiquewhite;
+	}
+
   </style>
   
