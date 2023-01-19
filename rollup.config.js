@@ -28,6 +28,7 @@ function serve() {
 	};
 }
 
+const {preprocess} = require('./svelte.config');
 export default {
 	input: 'src/main.js',
 	output: {
@@ -36,8 +37,11 @@ export default {
 		name: 'app',
 		file: 'public/build/bundle.js'
 	},
+	
 	plugins: [
 		svelte({
+
+			preprocess,
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production
