@@ -28,7 +28,7 @@ function handleSubmit(){
 <InputForm useName={uName}/>
 <ToDo />
 {:else}
-<h1>Welcome to Todo Task</h1>
+<h1>Welcome to Todo Task App</h1>
 <h3>Enter Your Name: </h3>
 <form on:submit|preventDefault={handleSubmit}>
 <div>
