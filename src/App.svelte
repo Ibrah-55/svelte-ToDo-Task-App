@@ -45,7 +45,7 @@ function handleSubmit(){
 			<Icon path={mdiMenu} />
 		  </Button>
 		</div>
-		<span slot="title">Title</span>
+		<span slot="title">Plan For Your Day</span>
 		<div style="flex-grow:1" />
 			<button on:click={toggleTheme}><Switch inset>{theme}</Switch></button>
 
@@ -55,9 +55,9 @@ function handleSubmit(){
 			  <Icon path={mdiDotsVertical} />
 			</Button>
 		  </div>
-		  <ListItem>Item 1</ListItem>
-		  <ListItem>Item 2</ListItem>
-		  <ListItem>Item 3</ListItem>
+		  <ListItem>Manage</ListItem>
+		  <ListItem>Plan</ListItem>
+		  <ListItem>Achieve</ListItem>
 		</Menu>
 	  </AppBar>
 	  
