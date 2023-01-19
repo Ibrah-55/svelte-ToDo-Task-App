@@ -1,6 +1,6 @@
 <script>
     import { toDoItems } from "./store.js"
-    
+  
     function removeFromList(i) {
       $toDoItems.splice(i, 1)
       $toDoItems = $toDoItems
